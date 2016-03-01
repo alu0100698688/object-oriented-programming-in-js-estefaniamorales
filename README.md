@@ -47,8 +47,8 @@
 
 **Página de la práctica**
 
-* [Web]()
+* [Web de la práctica](http://alu0100698688.github.io/web/practicas/Practica3/object-oriented-programming-in-js-estefaniamorales/index.html)
 
 **Página del autor**
 
-* [Web Author]()
+* [Web del autor](http://alu0100698688.github.io/web/)
