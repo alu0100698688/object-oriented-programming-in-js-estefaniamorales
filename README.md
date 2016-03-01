@@ -1,4 +1,4 @@
-# Práctica OOP en JS
+# Práctica Programación orienta a objetos en JS
 
 ## Puntos a conseguir con el desarrollo de esta práctica:
  * Modifique la práctica anterior de la Temperatura para que use objetos y herencia.
