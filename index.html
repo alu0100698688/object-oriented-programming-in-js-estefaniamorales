@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/skeleton.css">
   <link rel="stylesheet" href="assets/css/custom.css">
-
+  <link rel="stylesheet" href="assets/css/practica3.css">
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="text/javascript" src="assets/js/medida.js"></script>
@@ -32,16 +32,18 @@
 <body>
 
   <div class="container app">
-    <h4>Conversor</h4>
-    <div class="row">
-      <div class="one-half column">
-        <p>Este conversor te permite hacer conversiones de Temperaturas (Celsius y Farenheit) Ejemplo: 23C para Celsius.</p>
+
+    <div class="row" >
+      <div class="one-half column" >
+        <h4>Conversor</h4>
+        <p>Este conversor te permite hacer conversiones de Temperaturas (Celsius, Fahrenheit y Kelvin). Ejemplo: 23C para Celsius. Para usarlo
+        hay que seguir el siguiente formato: 32F (to) K. Presione <b>Enter</b> cuando tenga lo que quiere convertir.</p>
         <label>Introduzca un valor</label>
-        <input id="original" class="u-full-width" type="text" placeholder="Introduzca un valor">
-        &nbsp;&nbsp;
-        <button id="calculo" class="u-full-width" placeholder="Convertir" onclick="calcular();" ></button>
+        <input id="original" class="u-full-width" type="text" onkeydown= "calcular();" placeholder="32F to K">
+
         <span id="converted"></span>
       </div>
+
     </div>
   </div>
 
@@ -49,10 +51,14 @@
       <div class="container">
         <div class="row">
           <div class="one-half column">
-            <a href="">Repositorio del código</a>
+            <img src="assets/images/logoULL.png" alt="ull">
           </div>
           <div class="one-half column">
-            <a href="">Web del autor</a>
+            <nav id="nav">
+              <ul>
+                <li class="active"><a href="../../../index.html">Página principal</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
